@@ -4,7 +4,7 @@ spring:
       - dev
 ---
 server:
- port: 6080
+ port: 9080
 mybatis:
  mapper-locations: # 所有的mapper映射文件
  - classpath:mapping/*.xml
@@ -48,7 +48,7 @@ management:
         
 ---
 server:
- port: 6081
+ port: 9081
 mybatis:
  mapper-locations: # 所有的mapper映射文件
  - classpath:mapping/*.xml
